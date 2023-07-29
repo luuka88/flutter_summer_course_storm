@@ -22,7 +22,7 @@ class ProfileScreen extends StatelessWidget {
         child: ClipOval(
             child: Image.asset(
           'assets/dog.jpg',
-          
+
           fit: BoxFit.fitWidth,
         )));
   }
