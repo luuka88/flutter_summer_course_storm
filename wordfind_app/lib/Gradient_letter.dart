@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class GradientLetter extends StatelessWidget {
   final String letter;
 
-  const GradientLetter({super.key});
+  const GradientLetter(this.letter, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,15 @@ class GradientLetter extends StatelessWidget {
                   colors: [Color.fromRGBO(255, 144, 2, 0), Color(0xFFE48000)],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  stops: [-0.025, 1.6875],transform: GradientRotation(180) )),
+                  stops: [-0.025, 1.6875],
+                  transform: GradientRotation(180))),
+          child: Center(
+            child: Text(
+              letter,
+              style:
+                  TextStyle(fontSize: 32, height: 52 / 38, color: Colors.white),
+            ),
+          ),
         ),
       ),
     );
