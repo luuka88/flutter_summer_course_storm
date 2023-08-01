@@ -1,9 +1,9 @@
+import 'package:day_11_flutter/welcome_page.dart';
 import 'package:flutter/material.dart';
-import 'package:wordfind_app/welcome_page.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Welcomepage(
+    home: WelcomePage(
 
     ),
     title: "Word Find Game",
