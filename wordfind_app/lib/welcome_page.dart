@@ -1,3 +1,4 @@
+import 'package:day_11_flutter/start_page.dart';
 import 'package:flutter/material.dart';
 
 import 'Gradient_letter.dart';
@@ -71,3 +72,4 @@ class WelcomePage extends StatelessWidget {
     );
   }
 }
+//Navigator.push(context,MaterialPageRoute(builder:(_)=> StartPage()));
