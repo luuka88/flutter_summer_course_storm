@@ -42,17 +42,19 @@ class StartPage extends StatelessWidget {
             ),
           ),
         ),
-    floatingActionButton: StartBottom('Start') ,
+    floatingActionButton: StartBuntton(text:'Start') ,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
 
   }
 }
-class StartBottom extends StatelessWidget {
-  const StartBottom({super.key});
+class StartBuntton extends StatelessWidget {
+  final String text;
+  const StartBuntton({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
-    return Container(width: 31, height: 60,decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.centerLeft,end: Alignment.centerRight,colors: )),);
+    return Container(width: 31, height: 60,decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.centerLeft,end: Alignment.centerRight,colors: [Color(0xFFE86B02),
+      Color(0xFFFA9541),]),borderRadius: BorderRadius.circular(25)),child: ElevatedButton(onPressed: (){},style: ElevatedButton.styleFrom(backgroundColor: Colors.transparent,elevation: 0,shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25))),child: Text('Start',style: TextStyle(fontFamily: 'Nunito',fontSize: 24,fontWeight: FontWeight.w700),)),);
   }
 }
