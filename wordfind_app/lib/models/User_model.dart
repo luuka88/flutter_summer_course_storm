@@ -1,6 +1,6 @@
 
 class User {
-   final String userName;
-   final int score;
-    const User(this.userName,this.score);
+    String userName;
+    int score;
+     User(this.userName,this.score);
 }
