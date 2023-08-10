@@ -3,20 +3,21 @@ class CharModel {
   int? currentIndex;
   String? correctValue;
   bool hintShow;
-   CharModel({
-      this.correctValue, this.currentIndex, this.currentValue, this.hintShow=false});
-  getCurrentValue(){
-    if(correctValue!=null){
+  CharModel(
+      {this.correctValue,
+      this.currentIndex,
+      this.currentValue,
+      this.hintShow = false});
+  getCurrentValue() {
+    if (correctValue != null) {
       return currentValue;
-      }else{
+    } else {
       return correctValue;
-    }
-    }
-   clearValue(){
-      currentIndex = null;
-      currentValue = null;
-
     }
   }
 
-
+  clearValue() {
+    currentIndex = null;
+    currentValue = null;
+  }
+}

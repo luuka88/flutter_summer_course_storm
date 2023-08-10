@@ -6,9 +6,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: TaskPage(
-
-    ),
+    home: WelcomePage(),
     title: "Word Find Game",
     theme: ThemeData(fontFamily: 'Ribeye'),
   ));
