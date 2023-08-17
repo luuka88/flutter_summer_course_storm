@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698480907772",
+    "project_id": "luuka-2ba3a",
+    "storage_bucket": "luuka-2ba3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698480907772:android:eb26529b071e4e9b5d4e79",
+        "android_client_info": {
+          "package_name": "com.example.lesson_20_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698480907772-k865jqhejtsf9vrd2klt7ohr7gin5uef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_pc-oTXTpcu_Knd-Xm-AN3Hd0U3xhirg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698480907772-k865jqhejtsf9vrd2klt7ohr7gin5uef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
